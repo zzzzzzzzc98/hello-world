@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="1" timestamp="1553731917438" analysisTimestamp="1553731915771" release="">
+  <Project projectName="WZQCo">
+    <Jar>C:\Users\Administrator\eclipse-workspace\WZQCo\bin</Jar>
+    <AuxClasspathEntry>C:\Users\Administrator\eclipse-workspace\WZQCo\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Administrator\eclipse-workspace\WZQCo\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="IM_BAD_CHECK_FOR_ODD" priority="2" rank="13" abbrev="IM" category="STYLE" first="1">
+    <Class classname="Study.LoginListener">
+      <SourceLine classname="Study.LoginListener" sourcefile="LoginListener.java" sourcepath="Study/LoginListener.java"/>
+    </Class>
+    <Method classname="Study.LoginListener" name="mouseReleased" signature="(Ljava/awt/event/MouseEvent;)V" isStatic="false">
+      <SourceLine classname="Study.LoginListener" start="46" end="109" startBytecode="0" endBytecode="837" sourcefile="LoginListener.java" sourcepath="Study/LoginListener.java"/>
+    </Method>
+    <SourceLine classname="Study.LoginListener" start="64" end="64" startBytecode="151" endBytecode="151" sourcefile="LoginListener.java" sourcepath="Study/LoginListener.java"/>
+    <SourceLine classname="Study.LoginListener" start="64" end="64" startBytecode="151" endBytecode="151" sourcefile="LoginListener.java" sourcepath="Study/LoginListener.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="Study.LoginListener">
+      <SourceLine classname="Study.LoginListener" sourcefile="LoginListener.java" sourcepath="Study/LoginListener.java"/>
+    </Class>
+    <Field classname="Study.LoginListener" name="a" signature="I" isStatic="false">
+      <SourceLine classname="Study.LoginListener" sourcefile="LoginListener.java" sourcepath="Study/LoginListener.java"/>
+    </Field>
+    <SourceLine classname="Study.LoginListener" start="18" end="18" startBytecode="6" endBytecode="6" sourcefile="LoginListener.java" sourcepath="Study/LoginListener.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="Study.LoginListener">
+      <SourceLine classname="Study.LoginListener" sourcefile="LoginListener.java" sourcepath="Study/LoginListener.java"/>
+    </Class>
+    <Field classname="Study.LoginListener" name="i" signature="I" isStatic="false">
+      <SourceLine classname="Study.LoginListener" sourcefile="LoginListener.java" sourcepath="Study/LoginListener.java"/>
+    </Field>
+    <SourceLine classname="Study.LoginListener" start="18" end="18" startBytecode="11" endBytecode="11" sourcefile="LoginListener.java" sourcepath="Study/LoginListener.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="Study.LoginListener">
+      <SourceLine classname="Study.LoginListener" sourcefile="LoginListener.java" sourcepath="Study/LoginListener.java"/>
+    </Class>
+    <Field classname="Study.LoginListener" name="j" signature="I" isStatic="false">
+      <SourceLine classname="Study.LoginListener" sourcefile="LoginListener.java" sourcepath="Study/LoginListener.java"/>
+    </Field>
+    <SourceLine classname="Study.LoginListener" start="18" end="18" startBytecode="16" endBytecode="16" sourcefile="LoginListener.java" sourcepath="Study/LoginListener.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="Study.LoginListener">
+      <SourceLine classname="Study.LoginListener" sourcefile="LoginListener.java" sourcepath="Study/LoginListener.java"/>
+    </Class>
+    <Field classname="Study.LoginListener" name="jbu2" signature="Ljavax/swing/JButton;" isStatic="false">
+      <SourceLine classname="Study.LoginListener" sourcefile="LoginListener.java" sourcepath="Study/LoginListener.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_OOI_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="Study.WZQConfig">
+      <SourceLine classname="Study.WZQConfig" sourcefile="WZQConfig.java" sourcepath="Study/WZQConfig.java"/>
+    </Class>
+    <Field classname="Study.WZQConfig" name="bx" signature="[[I" isStatic="true">
+      <SourceLine classname="Study.WZQConfig" sourcefile="WZQConfig.java" sourcepath="Study/WZQConfig.java"/>
+    </Field>
+    <SourceLine classname="Study.WZQConfig" start="24" end="24" startBytecode="8" endBytecode="8" sourcefile="WZQConfig.java" sourcepath="Study/WZQConfig.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 28 Mar 2019 07:59:21 +0800" total_classes="3" referenced_classes="282" total_bugs="6" total_size="220" num_packages="1" java_version="1.8.0_201" vm_version="25.201-b09" cpu_seconds="5.42" clock_seconds="1.67" peak_mbytes="477.90" alloc_mbytes="1024.00" gc_seconds="0.16" priority_2="6">
+    <PackageStats package="Study" total_bugs="6" total_types="3" total_size="220" priority_2="6">
+      <ClassStats class="Study.LoginListener" sourceFile="LoginListener.java" interface="false" size="149" bugs="5" priority_2="5"/>
+      <ClassStats class="Study.WZQConfig" sourceFile="WZQConfig.java" interface="true" size="9" bugs="1" priority_2="1"/>
+      <ClassStats class="Study.WZQFrame" sourceFile="WZQFrame.java" interface="false" size="62" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="386" invocations="1488" avgMicrosecondsPerInvocation="259" maxMicrosecondsPerInvocation="45403" standardDeviationMircosecondsPerInvocation="1633"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="221" invocations="282" avgMicrosecondsPerInvocation="785" maxMicrosecondsPerInvocation="36628" standardDeviationMircosecondsPerInvocation="2997"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="201" invocations="1491" avgMicrosecondsPerInvocation="135" maxMicrosecondsPerInvocation="1493" standardDeviationMircosecondsPerInvocation="64"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="150" invocations="282" avgMicrosecondsPerInvocation="532" maxMicrosecondsPerInvocation="8654" standardDeviationMircosecondsPerInvocation="1037"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="101" invocations="2" avgMicrosecondsPerInvocation="50962" maxMicrosecondsPerInvocation="66247" standardDeviationMircosecondsPerInvocation="15286"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="80" invocations="623" avgMicrosecondsPerInvocation="129" maxMicrosecondsPerInvocation="1026" standardDeviationMircosecondsPerInvocation="126"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="54" invocations="341" avgMicrosecondsPerInvocation="160" maxMicrosecondsPerInvocation="22975" standardDeviationMircosecondsPerInvocation="1245"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="46" invocations="282" avgMicrosecondsPerInvocation="165" maxMicrosecondsPerInvocation="2445" standardDeviationMircosecondsPerInvocation="282"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1553731917438" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

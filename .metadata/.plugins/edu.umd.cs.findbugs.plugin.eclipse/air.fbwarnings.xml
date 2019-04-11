@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="1" timestamp="1553731701771" analysisTimestamp="1553731697103" release="">
+  <Project projectName="air">
+    <Jar>C:\Users\Administrator\eclipse-workspace\air\bin</Jar>
+    <AuxClasspathEntry>C:\Users\Administrator\eclipse-workspace\air\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Administrator\eclipse-workspace\air\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.config.Config">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Class>
+    <Field classname="com.beancore.config.Config" name="BLUE_BULLET_MOVE_SPEED" signature="I" isStatic="true">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.config.Config" start="92" end="92" startBytecode="23" endBytecode="23" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.config.Config">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Class>
+    <Field classname="com.beancore.config.Config" name="BULLET_FIRE_INTERVAL" signature="I" isStatic="true">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.config.Config" start="87" end="87" startBytecode="8" endBytecode="8" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.config.Config">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Class>
+    <Field classname="com.beancore.config.Config" name="DOUBLE_LASER_LAST_TIME" signature="I" isStatic="true">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.config.Config" start="85" end="85" startBytecode="3" endBytecode="3" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.config.Config">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Class>
+    <Field classname="com.beancore.config.Config" name="ENEMY_PLANE_MOVE_SPEED_MAX" signature="I" isStatic="true">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.config.Config" start="95" end="95" startBytecode="33" endBytecode="33" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.config.Config">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Class>
+    <Field classname="com.beancore.config.Config" name="ENEMY_PLANE_MOVE_SPEED_MIN" signature="I" isStatic="true">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.config.Config" start="94" end="94" startBytecode="28" endBytecode="28" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.config.Config">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Class>
+    <Field classname="com.beancore.config.Config" name="GAME_PANEL_REPAINT_INTERVAL" signature="I" isStatic="true">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.config.Config" start="89" end="89" startBytecode="13" endBytecode="13" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.config.Config">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Class>
+    <Field classname="com.beancore.config.Config" name="POP_BIG_ENEMY_PLANE_INTERVAL" signature="I" isStatic="true">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.config.Config" start="106" end="106" startBytecode="72" endBytecode="72" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.config.Config">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Class>
+    <Field classname="com.beancore.config.Config" name="POP_BOMBO_INTERVAL" signature="I" isStatic="true">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.config.Config" start="103" end="103" startBytecode="60" endBytecode="60" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.config.Config">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Class>
+    <Field classname="com.beancore.config.Config" name="POP_BOSS_ENEMY_PLANE_INTERVAL" signature="I" isStatic="true">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.config.Config" start="107" end="107" startBytecode="78" endBytecode="78" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.config.Config">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Class>
+    <Field classname="com.beancore.config.Config" name="POP_DOUBLE_LASER_INTERVAL" signature="I" isStatic="true">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.config.Config" start="102" end="102" startBytecode="55" endBytecode="55" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.config.Config">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Class>
+    <Field classname="com.beancore.config.Config" name="POP_SMALL_ENEMY_PLANE_INTERVAL" signature="I" isStatic="true">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.config.Config" start="105" end="105" startBytecode="66" endBytecode="66" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.config.Config">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Class>
+    <Field classname="com.beancore.config.Config" name="POP_WEAPON_ANIMATION_MOVE_FORWARD_SPEED" signature="I" isStatic="true">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.config.Config" start="97" end="97" startBytecode="38" endBytecode="38" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.config.Config">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Class>
+    <Field classname="com.beancore.config.Config" name="POP_WEAPON_ANIMATION_MOV_BACK_SPEED" signature="I" isStatic="true">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.config.Config" start="98" end="98" startBytecode="44" endBytecode="44" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.config.Config">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Class>
+    <Field classname="com.beancore.config.Config" name="POP_WEAPON_MOVE_SPEED" signature="I" isStatic="true">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.config.Config" start="100" end="100" startBytecode="49" endBytecode="49" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.config.Config">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Class>
+    <Field classname="com.beancore.config.Config" name="YELLOW_BULLET_MOVE_SPEED" signature="I" isStatic="true">
+      <SourceLine classname="com.beancore.config.Config" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.config.Config" start="91" end="91" startBytecode="18" endBytecode="18" sourcefile="Config.java" sourcepath="com/beancore/config/Config.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.entity.Score">
+      <SourceLine classname="com.beancore.entity.Score" sourcefile="Score.java" sourcepath="com/beancore/entity/Score.java"/>
+    </Class>
+    <Method classname="com.beancore.entity.Score" name="getScoreDateTime" signature="()Ljava/util/Date;" isStatic="false">
+      <SourceLine classname="com.beancore.entity.Score" start="24" end="24" startBytecode="0" endBytecode="46" sourcefile="Score.java" sourcepath="com/beancore/entity/Score.java"/>
+    </Method>
+    <Field classname="com.beancore.entity.Score" name="scoreDateTime" signature="Ljava/util/Date;" isStatic="false">
+      <SourceLine classname="com.beancore.entity.Score" sourcefile="Score.java" sourcepath="com/beancore/entity/Score.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.entity.Score" start="24" end="24" startBytecode="4" endBytecode="4" sourcefile="Score.java" sourcepath="com/beancore/entity/Score.java"/>
+    <SourceLine classname="com.beancore.entity.Score" start="24" end="24" startBytecode="4" endBytecode="4" sourcefile="Score.java" sourcepath="com/beancore/entity/Score.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.entity.Score">
+      <SourceLine classname="com.beancore.entity.Score" sourcefile="Score.java" sourcepath="com/beancore/entity/Score.java"/>
+    </Class>
+    <Method classname="com.beancore.entity.Score" name="&lt;init&gt;" signature="(Ljava/util/Date;IJ)V" isStatic="false">
+      <SourceLine classname="com.beancore.entity.Score" start="17" end="21" startBytecode="0" endBytecode="107" sourcefile="Score.java" sourcepath="com/beancore/entity/Score.java"/>
+    </Method>
+    <Field classname="com.beancore.entity.Score" name="scoreDateTime" signature="Ljava/util/Date;" isStatic="false">
+      <SourceLine classname="com.beancore.entity.Score" sourcefile="Score.java" sourcepath="com/beancore/entity/Score.java"/>
+    </Field>
+    <LocalVariable name="scoreDateTime" register="1" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.beancore.entity.Score" start="18" end="18" startBytecode="6" endBytecode="6" sourcefile="Score.java" sourcepath="com/beancore/entity/Score.java"/>
+    <SourceLine classname="com.beancore.entity.Score" start="18" end="18" startBytecode="6" endBytecode="6" sourcefile="Score.java" sourcepath="com/beancore/entity/Score.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.entity.Score">
+      <SourceLine classname="com.beancore.entity.Score" sourcefile="Score.java" sourcepath="com/beancore/entity/Score.java"/>
+    </Class>
+    <Method classname="com.beancore.entity.Score" name="setScoreDateTime" signature="(Ljava/util/Date;)V" isStatic="false">
+      <SourceLine classname="com.beancore.entity.Score" start="28" end="29" startBytecode="0" endBytecode="61" sourcefile="Score.java" sourcepath="com/beancore/entity/Score.java"/>
+    </Method>
+    <Field classname="com.beancore.entity.Score" name="scoreDateTime" signature="Ljava/util/Date;" isStatic="false">
+      <SourceLine classname="com.beancore.entity.Score" sourcefile="Score.java" sourcepath="com/beancore/entity/Score.java"/>
+    </Field>
+    <LocalVariable name="scoreDateTime" register="1" pc="2" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.beancore.entity.Score" start="28" end="28" startBytecode="2" endBytecode="2" sourcefile="Score.java" sourcepath="com/beancore/entity/Score.java"/>
+    <SourceLine classname="com.beancore.entity.Score" start="28" end="28" startBytecode="2" endBytecode="2" sourcefile="Score.java" sourcepath="com/beancore/entity/Score.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_EXCEPTION" priority="2" rank="11" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="com.beancore.factory.CatchableWeaponFactory">
+      <SourceLine classname="com.beancore.factory.CatchableWeaponFactory" sourcefile="CatchableWeaponFactory.java" sourcepath="com/beancore/factory/CatchableWeaponFactory.java"/>
+    </Class>
+    <Method classname="com.beancore.factory.CatchableWeaponFactory" name="createCatchableWeapon" signature="(Lcom/beancore/ui/GamePlayingPanel;Lcom/beancore/config/CatchableWeaponType;)Lcom/beancore/entity/CatchableWeapon;" isStatic="true">
+      <SourceLine classname="com.beancore.factory.CatchableWeaponFactory" start="18" end="41" startBytecode="0" endBytecode="304" sourcefile="CatchableWeaponFactory.java" sourcepath="com/beancore/factory/CatchableWeaponFactory.java"/>
+    </Method>
+    <LocalVariable name="weapon" register="2" pc="9" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.beancore.factory.CatchableWeaponFactory" start="36" end="36" startBytecode="115" endBytecode="115" sourcefile="CatchableWeaponFactory.java" sourcepath="com/beancore/factory/CatchableWeaponFactory.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="com.beancore.factory.CatchableWeaponFactory" start="18" end="18" startBytecode="0" endBytecode="0" sourcefile="CatchableWeaponFactory.java" sourcepath="com/beancore/factory/CatchableWeaponFactory.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="com.beancore.factory.CatchableWeaponFactory" start="19" end="19" startBytecode="10" endBytecode="10" sourcefile="CatchableWeaponFactory.java" sourcepath="com/beancore/factory/CatchableWeaponFactory.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.ALWAYS_ON_EXCEPTION_PATH" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.LONG_RANGE_NULL_SOURCE" value="true"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_EXCEPTION" priority="2" rank="11" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="com.beancore.factory.EnemyPlaneFactory">
+      <SourceLine classname="com.beancore.factory.EnemyPlaneFactory" sourcefile="EnemyPlaneFactory.java" sourcepath="com/beancore/factory/EnemyPlaneFactory.java"/>
+    </Class>
+    <Method classname="com.beancore.factory.EnemyPlaneFactory" name="createEnemyPlane" signature="(Lcom/beancore/ui/GamePlayingPanel;Lcom/beancore/config/EnemyPlaneType;)Lcom/beancore/entity/EnemyPlane;" isStatic="true">
+      <SourceLine classname="com.beancore.factory.EnemyPlaneFactory" start="19" end="55" startBytecode="0" endBytecode="463" sourcefile="EnemyPlaneFactory.java" sourcepath="com/beancore/factory/EnemyPlaneFactory.java"/>
+    </Method>
+    <LocalVariable name="enemyPlane" register="2" pc="9" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.beancore.factory.EnemyPlaneFactory" start="47" end="47" startBytecode="177" endBytecode="177" sourcefile="EnemyPlaneFactory.java" sourcepath="com/beancore/factory/EnemyPlaneFactory.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="com.beancore.factory.EnemyPlaneFactory" start="19" end="19" startBytecode="0" endBytecode="0" sourcefile="EnemyPlaneFactory.java" sourcepath="com/beancore/factory/EnemyPlaneFactory.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="com.beancore.factory.EnemyPlaneFactory" start="20" end="20" startBytecode="10" endBytecode="10" sourcefile="EnemyPlaneFactory.java" sourcepath="com/beancore/factory/EnemyPlaneFactory.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.ALWAYS_ON_EXCEPTION_PATH" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.LONG_RANGE_NULL_SOURCE" value="true"/>
+  </BugInstance>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" rank="17" abbrev="ICAST" category="STYLE" first="1">
+    <Class classname="com.beancore.ui.GameButton">
+      <SourceLine classname="com.beancore.ui.GameButton" sourcefile="GameButton.java" sourcepath="com/beancore/ui/GameButton.java"/>
+    </Class>
+    <Method classname="com.beancore.ui.GameButton" name="paintComponent" signature="(Ljava/awt/Graphics;)V" isStatic="false">
+      <SourceLine classname="com.beancore.ui.GameButton" start="62" end="82" startBytecode="0" endBytecode="383" sourcefile="GameButton.java" sourcepath="com/beancore/ui/GameButton.java"/>
+    </Method>
+    <SourceLine classname="com.beancore.ui.GameButton" start="79" end="79" startBytecode="140" endBytecode="140" sourcefile="GameButton.java" sourcepath="com/beancore/ui/GameButton.java"/>
+    <SourceLine classname="com.beancore.ui.GameButton" start="79" end="79" startBytecode="140" endBytecode="140" sourcefile="GameButton.java" sourcepath="com/beancore/ui/GameButton.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH" priority="2" rank="8" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="com.beancore.ui.GameButton">
+      <SourceLine classname="com.beancore.ui.GameButton" sourcefile="GameButton.java" sourcepath="com/beancore/ui/GameButton.java"/>
+    </Class>
+    <Method classname="com.beancore.ui.GameButton" name="paintComponent" signature="(Ljava/awt/Graphics;)V" isStatic="false">
+      <SourceLine classname="com.beancore.ui.GameButton" start="62" end="82" startBytecode="0" endBytecode="383" sourcefile="GameButton.java" sourcepath="com/beancore/ui/GameButton.java"/>
+    </Method>
+    <LocalVariable name="buttonBgImg" register="2" pc="41" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.beancore.ui.GameButton" start="69" end="69" startBytecode="62" endBytecode="62" sourcefile="GameButton.java" sourcepath="com/beancore/ui/GameButton.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="com.beancore.ui.GameButton" start="63" end="63" startBytecode="5" endBytecode="5" sourcefile="GameButton.java" sourcepath="com/beancore/ui/GameButton.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="com.beancore.ui.GameButton" start="66" end="66" startBytecode="44" endBytecode="44" sourcefile="GameButton.java" sourcepath="com/beancore/ui/GameButton.java" role="SOURCE_LINE_KNOWN_NULL"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="com.beancore.ui.GameButton">
+      <SourceLine classname="com.beancore.ui.GameButton" sourcefile="GameButton.java" sourcepath="com/beancore/ui/GameButton.java"/>
+    </Class>
+    <Field classname="com.beancore.ui.GameButton" name="BUTTON_HOVER" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.beancore.ui.GameButton" sourcefile="GameButton.java" sourcepath="com/beancore/ui/GameButton.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.ui.GameButton" start="24" end="24" startBytecode="7" endBytecode="7" sourcefile="GameButton.java" sourcepath="com/beancore/ui/GameButton.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="com.beancore.ui.GameButton">
+      <SourceLine classname="com.beancore.ui.GameButton" sourcefile="GameButton.java" sourcepath="com/beancore/ui/GameButton.java"/>
+    </Class>
+    <Field classname="com.beancore.ui.GameButton" name="BUTTON_NORMAL" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.beancore.ui.GameButton" sourcefile="GameButton.java" sourcepath="com/beancore/ui/GameButton.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.ui.GameButton" start="25" end="25" startBytecode="13" endBytecode="13" sourcefile="GameButton.java" sourcepath="com/beancore/ui/GameButton.java"/>
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" rank="17" abbrev="IS" category="MT_CORRECTNESS" first="1">
+    <Class classname="com.beancore.ui.GamePlayingPanel">
+      <SourceLine classname="com.beancore.ui.GamePlayingPanel" sourcefile="GamePlayingPanel.java" sourcepath="com/beancore/ui/GamePlayingPanel.java"/>
+    </Class>
+    <Field classname="com.beancore.ui.GamePlayingPanel" name="score" signature="I" isStatic="false">
+      <SourceLine classname="com.beancore.ui.GamePlayingPanel" sourcefile="GamePlayingPanel.java" sourcepath="com/beancore/ui/GamePlayingPanel.java"/>
+    </Field>
+    <Int value="57" role="INT_SYNC_PERCENT"/>
+    <SourceLine classname="com.beancore.ui.GamePlayingPanel" start="525" end="525" startBytecode="2" endBytecode="2" sourcefile="GamePlayingPanel.java" sourcepath="com/beancore/ui/GamePlayingPanel.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="com.beancore.ui.GamePlayingPanel" start="625" end="625" startBytecode="1" endBytecode="1" sourcefile="GamePlayingPanel.java" sourcepath="com/beancore/ui/GamePlayingPanel.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="com.beancore.ui.GamePlayingPanel" start="264" end="264" startBytecode="14" endBytecode="14" sourcefile="GamePlayingPanel.java" sourcepath="com/beancore/ui/GamePlayingPanel.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="com.beancore.ui.GamePlayingPanel" start="146" end="146" startBytecode="156" endBytecode="156" sourcefile="GamePlayingPanel.java" sourcepath="com/beancore/ui/GamePlayingPanel.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="com.beancore.ui.GamePlayingPanel" start="146" end="146" startBytecode="164" endBytecode="164" sourcefile="GamePlayingPanel.java" sourcepath="com/beancore/ui/GamePlayingPanel.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="com.beancore.ui.GamePlayingPanel" start="561" end="561" startBytecode="49" endBytecode="49" sourcefile="GamePlayingPanel.java" sourcepath="com/beancore/ui/GamePlayingPanel.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="com.beancore.ui.GamePlayingPanel" start="561" end="561" startBytecode="57" endBytecode="57" sourcefile="GamePlayingPanel.java" sourcepath="com/beancore/ui/GamePlayingPanel.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE" first="1">
+    <Class classname="com.beancore.ui.GamePlayingPanel">
+      <SourceLine classname="com.beancore.ui.GamePlayingPanel" sourcefile="GamePlayingPanel.java" sourcepath="com/beancore/ui/GamePlayingPanel.java"/>
+    </Class>
+    <Method classname="com.beancore.ui.GamePlayingPanel" name="drawBomb" signature="(Ljava/awt/Graphics;)V" isStatic="false">
+      <SourceLine classname="com.beancore.ui.GamePlayingPanel" start="348" end="382" startBytecode="0" endBytecode="373" sourcefile="GamePlayingPanel.java" sourcepath="com/beancore/ui/GamePlayingPanel.java"/>
+    </Method>
+    <SourceLine classname="com.beancore.ui.GamePlayingPanel" start="363" end="375" startBytecode="70" endBytecode="149" sourcefile="GamePlayingPanel.java" sourcepath="com/beancore/ui/GamePlayingPanel.java"/>
+    <SourceLine classname="com.beancore.ui.GamePlayingPanel" start="363" end="375" startBytecode="70" endBytecode="149" sourcefile="GamePlayingPanel.java" sourcepath="com/beancore/ui/GamePlayingPanel.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE" first="1">
+    <Class classname="com.beancore.ui.GamePlayingPanel">
+      <SourceLine classname="com.beancore.ui.GamePlayingPanel" sourcefile="GamePlayingPanel.java" sourcepath="com/beancore/ui/GamePlayingPanel.java"/>
+    </Class>
+    <Method classname="com.beancore.ui.GamePlayingPanel" name="drawScore" signature="(Ljava/awt/Graphics;)V" isStatic="false">
+      <SourceLine classname="com.beancore.ui.GamePlayingPanel" start="262" end="345" startBytecode="0" endBytecode="958" sourcefile="GamePlayingPanel.java" sourcepath="com/beancore/ui/GamePlayingPanel.java"/>
+    </Method>
+    <SourceLine classname="com.beancore.ui.GamePlayingPanel" start="282" end="341" startBytecode="130" endBytecode="410" sourcefile="GamePlayingPanel.java" sourcepath="com/beancore/ui/GamePlayingPanel.java"/>
+    <SourceLine classname="com.beancore.ui.GamePlayingPanel" start="282" end="341" startBytecode="130" endBytecode="410" sourcefile="GamePlayingPanel.java" sourcepath="com/beancore/ui/GamePlayingPanel.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE" first="1">
+    <Class classname="com.beancore.ui.MainFrame">
+      <SourceLine classname="com.beancore.ui.MainFrame" sourcefile="MainFrame.java" sourcepath="com/beancore/ui/MainFrame.java"/>
+    </Class>
+    <Method classname="com.beancore.ui.MainFrame" name="startGame" signature="()V" isStatic="false">
+      <SourceLine classname="com.beancore.ui.MainFrame" start="316" end="346" startBytecode="0" endBytecode="423" sourcefile="MainFrame.java" sourcepath="com/beancore/ui/MainFrame.java"/>
+    </Method>
+    <SourceLine classname="com.beancore.ui.MainFrame" start="338" end="343" startBytecode="153" endBytecode="186" sourcefile="MainFrame.java" sourcepath="com/beancore/ui/MainFrame.java"/>
+    <SourceLine classname="com.beancore.ui.MainFrame" start="338" end="343" startBytecode="153" endBytecode="186" sourcefile="MainFrame.java" sourcepath="com/beancore/ui/MainFrame.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.ui.Top10ScorePanel">
+      <SourceLine classname="com.beancore.ui.Top10ScorePanel" sourcefile="Top10ScorePanel.java" sourcepath="com/beancore/ui/Top10ScorePanel.java"/>
+    </Class>
+    <Field classname="com.beancore.ui.Top10ScorePanel" name="OK_BUTTON" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.beancore.ui.Top10ScorePanel" sourcefile="Top10ScorePanel.java" sourcepath="com/beancore/ui/Top10ScorePanel.java"/>
+    </Field>
+    <SourceLine classname="com.beancore.ui.Top10ScorePanel" start="19" end="19" startBytecode="2" endBytecode="2" sourcefile="Top10ScorePanel.java" sourcepath="com/beancore/ui/Top10ScorePanel.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="com.beancore.util.FileUtil">
+      <SourceLine classname="com.beancore.util.FileUtil" sourcefile="FileUtil.java" sourcepath="com/beancore/util/FileUtil.java"/>
+    </Class>
+    <Method classname="com.beancore.util.FileUtil" name="readFileToString" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.beancore.util.FileUtil" start="19" end="27" startBytecode="0" endBytecode="226" sourcefile="FileUtil.java" sourcepath="com/beancore/util/FileUtil.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="72" end="73" startBytecode="0" endBytecode="40" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="com.beancore.util.FileUtil" start="21" end="21" startBytecode="26" endBytecode="26" sourcefile="FileUtil.java" sourcepath="com/beancore/util/FileUtil.java"/>
+    <SourceLine classname="com.beancore.util.FileUtil" start="21" end="21" startBytecode="26" endBytecode="26" sourcefile="FileUtil.java" sourcepath="com/beancore/util/FileUtil.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="com.beancore.util.FileUtil">
+      <SourceLine classname="com.beancore.util.FileUtil" sourcefile="FileUtil.java" sourcepath="com/beancore/util/FileUtil.java"/>
+    </Class>
+    <Method classname="com.beancore.util.FileUtil" name="readFileToString" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.beancore.util.FileUtil" start="19" end="27" startBytecode="0" endBytecode="226" sourcefile="FileUtil.java" sourcepath="com/beancore/util/FileUtil.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="958" end="958" startBytecode="0" endBytecode="37" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="com.beancore.util.FileUtil" start="24" end="24" startBytecode="46" endBytecode="46" sourcefile="FileUtil.java" sourcepath="com/beancore/util/FileUtil.java"/>
+    <SourceLine classname="com.beancore.util.FileUtil" start="24" end="24" startBytecode="46" endBytecode="46" sourcefile="FileUtil.java" sourcepath="com/beancore/util/FileUtil.java"/>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="BIG_PLANE_ASHED_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="BIG_PLANE_BADDLY_WOUNDED_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="BIG_PLANE_FIGHTING_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="BIG_PLANE_HITTED_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="BIG_PLANE_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="BIG_PLANE_KILLED_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="BLUE_BULLET_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="BOMB_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="BOSS_PLANE_ASHED_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="BOSS_PLANE_BADDLY_WOUNDED_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="BOSS_PLANE_FIGHTING_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="BOSS_PLANE_HITTED_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="BOSS_PLANE_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="BOSS_PLANE_KILLED_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="CAUGHT_BOMB_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="DOUBLE_LASER_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="GAME_LOADING_IMG1" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="GAME_LOADING_IMG2" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="GAME_LOADING_IMG3" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="GAME_LOADING_TEXT_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="MY_PLANE_FLYING_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="MY_PLANE_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="NUMBER_0_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="NUMBER_1_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="NUMBER_2_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="NUMBER_3_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="NUMBER_4_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="NUMBER_5_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="NUMBER_6_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="NUMBER_7_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="NUMBER_8_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="NUMBER_9_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="SCORE_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="SHOOT_BACKGROUND_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="SMALL_PLANE_ASHED_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="SMALL_PLANE_FIGHTING_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="SMALL_PLANE_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="SMALL_PLANE_KILLED_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="X_MARK_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="com.beancore.util.Images">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Class>
+    <Field classname="com.beancore.util.Images" name="YELLOW_BULLET_IMG" signature="Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="com.beancore.util.Images" sourcefile="Images.java" sourcepath="com/beancore/util/Images.java"/>
+    </Field>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 28 Mar 2019 07:59:21 +0800" total_classes="42" referenced_classes="415" total_bugs="71" total_size="2187" num_packages="7" java_version="1.8.0_201" vm_version="25.201-b09" cpu_seconds="16.00" clock_seconds="4.68" peak_mbytes="408.21" alloc_mbytes="1024.00" gc_seconds="0.14" priority_2="53" priority_1="18">
+    <PackageStats package="com.beancore" total_bugs="0" total_types="1" total_size="9">
+      <ClassStats class="com.beancore.Main" sourceFile="Main.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.beancore.config" total_bugs="15" total_types="5" total_size="289" priority_1="15">
+      <ClassStats class="com.beancore.config.BulletType" sourceFile="BulletType.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.beancore.config.CatchableWeaponType" sourceFile="CatchableWeaponType.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.beancore.config.Config" sourceFile="Config.java" interface="false" size="92" bugs="15" priority_1="15"/>
+      <ClassStats class="com.beancore.config.EnemyPlaneType" sourceFile="EnemyPlaneType.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="com.beancore.config.ImageConstants" sourceFile="ImageConstants.java" interface="false" size="163" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.beancore.entity" total_bugs="3" total_types="17" total_size="628" priority_2="3">
+      <ClassStats class="com.beancore.entity.BigPlane" sourceFile="BigPlane.java" interface="false" size="44" bugs="0"/>
+      <ClassStats class="com.beancore.entity.BigPlane$DrawFighting" sourceFile="BigPlane.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.beancore.entity.BigPlane$DrawKilled" sourceFile="BigPlane.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.beancore.entity.Bomb" sourceFile="Bomb.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.beancore.entity.BossPlane" sourceFile="BossPlane.java" interface="false" size="44" bugs="0"/>
+      <ClassStats class="com.beancore.entity.BossPlane$DrawFighting" sourceFile="BossPlane.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.beancore.entity.BossPlane$DrawKilled" sourceFile="BossPlane.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.beancore.entity.Bullet" sourceFile="Bullet.java" interface="false" size="90" bugs="0"/>
+      <ClassStats class="com.beancore.entity.CatchableWeapon" sourceFile="CatchableWeapon.java" interface="false" size="81" bugs="0"/>
+      <ClassStats class="com.beancore.entity.DoubleLaser" sourceFile="DoubleLaser.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.beancore.entity.EnemyPlane" sourceFile="EnemyPlane.java" interface="false" size="95" bugs="0"/>
+      <ClassStats class="com.beancore.entity.MyPlane" sourceFile="MyPlane.java" interface="false" size="111" bugs="0"/>
+      <ClassStats class="com.beancore.entity.MyPlane$LauchBulletThread" sourceFile="MyPlane.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.beancore.entity.Score" sourceFile="Score.java" interface="false" size="49" bugs="3" priority_2="3"/>
+      <ClassStats class="com.beancore.entity.SmallPlane" sourceFile="SmallPlane.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="com.beancore.entity.SmallPlane$DrawFighting" sourceFile="SmallPlane.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.beancore.entity.SmallPlane$DrawKilled" sourceFile="SmallPlane.java" interface="false" size="10" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.beancore.factory" total_bugs="2" total_types="3" total_size="96" priority_2="2">
+      <ClassStats class="com.beancore.factory.BulletFactory" sourceFile="BulletFactory.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="com.beancore.factory.CatchableWeaponFactory" sourceFile="CatchableWeaponFactory.java" interface="false" size="27" bugs="1" priority_2="1"/>
+      <ClassStats class="com.beancore.factory.EnemyPlaneFactory" sourceFile="EnemyPlaneFactory.java" interface="false" size="40" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.beancore.listener" total_bugs="0" total_types="3" total_size="6">
+      <ClassStats class="com.beancore.listener.BulletListener" sourceFile="BulletListener.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.beancore.listener.CatchableWeaponListener" sourceFile="CatchableWeaponListener.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.beancore.listener.EnemyPlaneListener" sourceFile="EnemyPlaneListener.java" interface="true" size="2" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.beancore.ui" total_bugs="9" total_types="9" total_size="1055" priority_2="8" priority_1="1">
+      <ClassStats class="com.beancore.ui.GameButton" sourceFile="GameButton.java" interface="false" size="74" bugs="4" priority_2="4"/>
+      <ClassStats class="com.beancore.ui.GameLoadingPanel" sourceFile="GameLoadingPanel.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="com.beancore.ui.GamePlayingPanel" sourceFile="GamePlayingPanel.java" interface="false" size="388" bugs="3" priority_2="3"/>
+      <ClassStats class="com.beancore.ui.GamePlayingPanel$PaintThread" sourceFile="GamePlayingPanel.java" interface="false" size="74" bugs="0"/>
+      <ClassStats class="com.beancore.ui.HelpDialog" sourceFile="HelpDialog.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="com.beancore.ui.MainFrame" sourceFile="MainFrame.java" interface="false" size="332" bugs="1" priority_2="1"/>
+      <ClassStats class="com.beancore.ui.MainFrame$StartGameActionClass" sourceFile="MainFrame.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.beancore.ui.PopupMenuPanel" sourceFile="PopupMenuPanel.java" interface="false" size="59" bugs="0"/>
+      <ClassStats class="com.beancore.ui.Top10ScorePanel" sourceFile="Top10ScorePanel.java" interface="false" size="46" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="com.beancore.util" total_bugs="42" total_types="4" total_size="104" priority_2="40" priority_1="2">
+      <ClassStats class="com.beancore.util.FileUtil" sourceFile="FileUtil.java" interface="false" size="30" bugs="2" priority_1="2"/>
+      <ClassStats class="com.beancore.util.ImageLoader" sourceFile="ImageLoader.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.beancore.util.Images" sourceFile="Images.java" interface="false" size="43" bugs="40" priority_2="40"/>
+      <ClassStats class="com.beancore.util.SoundPlayer" sourceFile="SoundPlayer.java" interface="false" size="20" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="558" invocations="1757" avgMicrosecondsPerInvocation="317" maxMicrosecondsPerInvocation="33316" standardDeviationMircosecondsPerInvocation="1337"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="519" invocations="2" avgMicrosecondsPerInvocation="259611" maxMicrosecondsPerInvocation="266064" standardDeviationMircosecondsPerInvocation="6453"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="395" invocations="415" avgMicrosecondsPerInvocation="953" maxMicrosecondsPerInvocation="41852" standardDeviationMircosecondsPerInvocation="2824"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="346" invocations="415" avgMicrosecondsPerInvocation="835" maxMicrosecondsPerInvocation="21556" standardDeviationMircosecondsPerInvocation="1815"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="324" invocations="1760" avgMicrosecondsPerInvocation="184" maxMicrosecondsPerInvocation="22715" standardDeviationMircosecondsPerInvocation="640"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="274" invocations="1095" avgMicrosecondsPerInvocation="250" maxMicrosecondsPerInvocation="34340" standardDeviationMircosecondsPerInvocation="1144"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="124" invocations="283" avgMicrosecondsPerInvocation="440" maxMicrosecondsPerInvocation="42622" standardDeviationMircosecondsPerInvocation="2653"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="118" invocations="280" avgMicrosecondsPerInvocation="422" maxMicrosecondsPerInvocation="30238" standardDeviationMircosecondsPerInvocation="1916"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="114" invocations="415" avgMicrosecondsPerInvocation="276" maxMicrosecondsPerInvocation="15501" standardDeviationMircosecondsPerInvocation="884"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="103" invocations="286" avgMicrosecondsPerInvocation="361" maxMicrosecondsPerInvocation="15962" standardDeviationMircosecondsPerInvocation="1350"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="92" invocations="281" avgMicrosecondsPerInvocation="329" maxMicrosecondsPerInvocation="8410" standardDeviationMircosecondsPerInvocation="757"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="90" invocations="415" avgMicrosecondsPerInvocation="217" maxMicrosecondsPerInvocation="8790" standardDeviationMircosecondsPerInvocation="650"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="90" invocations="504" avgMicrosecondsPerInvocation="178" maxMicrosecondsPerInvocation="16186" standardDeviationMircosecondsPerInvocation="861"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="73" invocations="415" avgMicrosecondsPerInvocation="176" maxMicrosecondsPerInvocation="10317" standardDeviationMircosecondsPerInvocation="1027"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="71" invocations="281" avgMicrosecondsPerInvocation="254" maxMicrosecondsPerInvocation="5738" standardDeviationMircosecondsPerInvocation="554"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="69" invocations="281" avgMicrosecondsPerInvocation="245" maxMicrosecondsPerInvocation="12558" standardDeviationMircosecondsPerInvocation="783"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="61" invocations="415" avgMicrosecondsPerInvocation="148" maxMicrosecondsPerInvocation="12280" standardDeviationMircosecondsPerInvocation="628"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="59" invocations="415" avgMicrosecondsPerInvocation="144" maxMicrosecondsPerInvocation="2143" standardDeviationMircosecondsPerInvocation="275"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1553731701768" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
